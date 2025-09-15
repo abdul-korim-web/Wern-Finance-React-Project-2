@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <>
-      <section className="hero py-10 flex flex-col space-y-10 items-center md:flex-row-reverse md:py-30 md:justify-between md:items-center">
+      <section className="hero pt-30 pb-20 flex flex-col space-y-10 items-center md:flex-row-reverse md:py-30 md:justify-between md:items-center">
         
         {/* Hero Image */}
         <motion.div
@@ -33,7 +33,7 @@ const Hero = () => {
             Our user-friendly platform enables businesses and individuals to
             seamlessly convert and spend their crypto for everyday purchases.
           </p>
-          <Button sx={{ width: "150px", background: "#772AB3" }} variant="contained">
+          <Button sx={{ width: "150px", background: "#772AB3", borderRadius:"120px", fontFamily:"bold" }} variant="contained">
             Contained <ArrowForwardIcon />
           </Button>
         </motion.div>
