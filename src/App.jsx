@@ -6,6 +6,7 @@ import Navbararea  from './Component/Navbar/Navbar';
 import Hero from './Component/Hero/Hero';
 import Vision from './Component/Vision/Vision';
 import Offer from './Component/Offer/Offer';
+import CreateNewCard from './Component/CreateNewCard/CreateNewCard';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Hero/>
     <Vision/>
     <Offer/>
+    <CreateNewCard/>
       
       
       
