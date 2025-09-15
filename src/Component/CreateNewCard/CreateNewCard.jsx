@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const CreateNewCard = () => {
   return (
     <>
-      <section className="CreateNewCard flex flex-col px-5 py-10 space-y-5 md:flex-row-reverse md:w-[1400px] md:mx-auto md:justify-center md:items-center">
+      <section className="CreateNewCard flex flex-col px-5 py-10 space-y-5 md:flex-row-reverse md:w-[1400px] md:mx-auto md:justify-center md:items-center md:py-20">
         <motion.div
           initial={{ opacity: 0, x: 100 }}
           whileInView={{ opacity: 1, x: 0 }}
