@@ -5,6 +5,7 @@ import {Accordion, AccordionItem} from "@heroui/react";
 import Navbararea  from './Component/Navbar/Navbar';
 import Hero from './Component/Hero/Hero';
 import Vision from './Component/Vision/Vision';
+import Offer from './Component/Offer/Offer';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Navbararea/>
     <Hero/>
     <Vision/>
+    <Offer/>
       
       
       
