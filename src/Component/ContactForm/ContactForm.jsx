@@ -13,9 +13,9 @@ const ContactPage = () => {
         transition={{ duration: 0.7 }}
       >
         <img
-          src="image/contact-image.png"
+          src="image/myPhoto.jpg"
           alt="Contact"
-          className="rounded-2xl shadow-2xl w-full max-w-md object-cover"
+          className="rounded-2xl shadow-2xl w-[80%] max-w-md object-cover"
         />
       </motion.div>
 
