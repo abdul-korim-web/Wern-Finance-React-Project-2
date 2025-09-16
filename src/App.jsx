@@ -8,6 +8,7 @@ import Vision from './Component/Vision/Vision';
 import Offer from './Component/Offer/Offer';
 import CreateNewCard from './Component/CreateNewCard/CreateNewCard';
 import FindCard from './Component/FindCard/FindCard';
+import PersionReviewCard from './Component/PersionReview/PersionReviewCard';
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
     <Offer/>
     <CreateNewCard/>
     <FindCard/>
+    <PersionReviewCard/>
+    
       
       
       
