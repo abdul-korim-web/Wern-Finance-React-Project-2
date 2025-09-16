@@ -10,6 +10,10 @@ import CreateNewCard from './Component/CreateNewCard/CreateNewCard';
 import FindCard from './Component/FindCard/FindCard';
 import PersionReviewCard from "./Component/PersionReview/PersionReviewCard"
 import AccordionSection from "./Component/Accordion/Accordion"
+import Footer from './Component/Footer/Footer';
+import { BrowserRouter, Routes, Route,  } from 'react-router-dom';
+import Homepagelayout from './Component/Homepagelayout/Homepagelayout';
+import ContactForm from './Component/ContactForm/ContactForm';
 
 
 
@@ -17,19 +21,18 @@ function App() {
  
 
   return (
-    <>
+    <BrowserRouter>
     <Navbararea/>
-    <Hero/>
-    <Vision/>
-    <Offer/>
-    <CreateNewCard/>
-    <FindCard/>
-    <PersionReviewCard/>
-    <AccordionSection/>
+    <Routes>
+      <Route path='/' element={<Homepagelayout/>}/>
+      <Route path='contact' element={<ContactForm/>}/>
+    </Routes>
+    
+    <Footer/>
       
       
       
-    </>
+    </BrowserRouter>
   )
 }
 

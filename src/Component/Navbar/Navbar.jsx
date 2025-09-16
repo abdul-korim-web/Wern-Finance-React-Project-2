@@ -2,8 +2,13 @@ import React from 'react';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
 const Navbararea = () => {
+  let navite = useNavigate()
+  const ContactBtn =()=>{
+    navite("/contact")
+  }
   return (
     <>
       <motion.nav
@@ -16,7 +21,7 @@ const Navbararea = () => {
           <img className='md:w-[200px]' src="image/logo.png" alt="site logo" />
         </div>
         <div>
-          <Button
+          <Button onClick={ContactBtn}
             sx={{ border:"2px solid #772AB3", color:"#772AB3", borderRadius:"10px" }}
             variant="outlined"
           >
