@@ -2,8 +2,13 @@ import React from "react";
 import Button from "@mui/material/Button";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 const CreateNewCard = () => {
+  let native = useNavigate()
+  const cratecardbtn = ()=>{
+    native("/createcard")
+  }
   return (
     <>
       <section className="CreateNewCard flex flex-col px-5 py-10 space-y-5 md:flex-row-reverse md:w-[1400px] md:mx-auto md:justify-center md:items-center md:py-20">
@@ -35,7 +40,7 @@ const CreateNewCard = () => {
             Embrace the simplicity and security of spending your Cardano with
             the Wern Card.
           </p>
-          <Button
+          <Button onClick={cratecardbtn}
             sx={{
               width: "180px",
               background: "#772AB3",

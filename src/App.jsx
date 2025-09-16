@@ -14,6 +14,7 @@ import Footer from './Component/Footer/Footer';
 import { BrowserRouter, Routes, Route,  } from 'react-router-dom';
 import Homepagelayout from './Component/Homepagelayout/Homepagelayout';
 import ContactForm from './Component/ContactForm/ContactForm';
+import CreateNewDebitCard from './Component/CreateNewDebitCard/CreateNewDebitCard';
 
 
 
@@ -26,6 +27,8 @@ function App() {
     <Routes>
       <Route path='/' element={<Homepagelayout/>}/>
       <Route path='contact' element={<ContactForm/>}/>
+      <Route path='createcard' element={<CreateNewDebitCard/>}/>
+      
     </Routes>
     
     <Footer/>

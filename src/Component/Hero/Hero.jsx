@@ -4,6 +4,9 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { motion } from "framer-motion";
 
 const Hero = () => {
+   const Btn = ()=>{
+    alert(`This is a demo react project . please visit https://github.com/abdul-korim-web/abdul-korim-web  `)
+   }
   return (
     <>
       <section className="hero pt-30 pb-20 flex flex-col space-y-10 items-center md:flex-row-reverse md:py-30 md:justify-between md:items-center">
@@ -33,7 +36,7 @@ const Hero = () => {
             Our user-friendly platform enables businesses and individuals to
             seamlessly convert and spend their crypto for everyday purchases.
           </p>
-          <Button sx={{ width: "150px", background: "#772AB3", borderRadius:"120px", fontFamily:"bold" }} variant="contained">
+          <Button onClick={Btn} sx={{ width: "150px", background: "#772AB3", borderRadius:"120px", fontFamily:"bold" }} variant="contained">
             Contained <ArrowForwardIcon />
           </Button>
         </motion.div>
