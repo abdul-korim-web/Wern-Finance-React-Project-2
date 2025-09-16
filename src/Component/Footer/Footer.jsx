@@ -22,7 +22,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="px-5 pt-20 pb-30 flex flex-col space-y-5 items-center justify-center md:flex-row md:justify-between md:px-10 md:space-x-5 md:items-start bg-[rgba(41,40,52,0.25)]">
+    <footer className="px-5 pt-20 pb-30 flex flex-col space-y-5 items-center justify-center md:flex-row md:justify-between md:px-10 md:space-x-5 md:items-start bg-[rgba(41,40,52,0.25)] ">
       {/* Logo Section with Animation */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
