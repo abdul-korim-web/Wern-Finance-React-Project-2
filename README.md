@@ -53,20 +53,53 @@ Experience the app live: [https://react-wern-finance.netlify.app/](https://react
 ## 📸 Screenshots
 
 ### 🏠 Homepage
-![Homepage Screenshot](./public/screenshots/homepage.png)
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-### 💳 Create New Card Section
-![Create New Card Screenshot](./public/screenshots/create-card.png)
+  <a href="./public/screenshots/pchomepage.png" target="_blank" style="text-decoration: none;">
+    <div style="padding: 8px 12px; background-color: #772AB3; color: white; border-radius: 8px; font-weight: bold; text-align: center;">
+      See Full PC Screen Image
+    </div>
+  </a>
 
-### 👥 Person Review Section
-![Review Section Screenshot](./public/screenshots/review.png)
+  <a href="./public/screenshots/phonehomepage.png" target="_blank" style="text-decoration: none;">
+    <div style="padding: 8px 12px; background-color: #C753FE; color: white; border-radius: 8px; font-weight: bold; text-align: center;">
+      See Full Phone Screen Image
+    </div>
+  </a>
 
-### ❓ FAQ Accordion
-![FAQ Screenshot](./public/screenshots/faq.png)
+</div>
+### 📬 Contact Section
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-### 📬 Contact Page
-![Contact Page Screenshot](./public/screenshots/contact.png)
+  <a href="./public/screenshots/pccancact.png" target="_blank" style="text-decoration: none;">
+    <div style="padding: 8px 12px; background-color: #772AB3; color: white; border-radius: 8px; font-weight: bold; text-align: center;">
+      See Full PC Contact Image
+    </div>
+  </a>
 
+  <a href="./public/screenshots/phonecontact.png" target="_blank" style="text-decoration: none;">
+    <div style="padding: 8px 12px; background-color: #C753FE; color: white; border-radius: 8px; font-weight: bold; text-align: center;">
+      See Full Phone Contact Image
+    </div>
+  </a>
+
+</div>
+### 💳 Create Card Section
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+
+  <a href="./public/screenshots/pccreatecard.png" target="_blank" style="text-decoration: none;">
+    <div style="padding: 8px 12px; background-color: #772AB3; color: white; border-radius: 8px; font-weight: bold; text-align: center;">
+      See Full PC Contact Image
+    </div>
+  </a>
+
+  <a href="./public/screenshots/phonecreatecard.png" target="_blank" style="text-decoration: none;">
+    <div style="padding: 8px 12px; background-color: #C753FE; color: white; border-radius: 8px; font-weight: bold; text-align: center;">
+      See Full Phone Contact Image
+    </div>
+  </a>
+
+</div>
 
 ## 📜 License & Copyright
 
