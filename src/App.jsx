@@ -8,7 +8,9 @@ import Vision from './Component/Vision/Vision';
 import Offer from './Component/Offer/Offer';
 import CreateNewCard from './Component/CreateNewCard/CreateNewCard';
 import FindCard from './Component/FindCard/FindCard';
-import PersionReviewCard from './Component/PersionReview/PersionReviewCard';
+import PersionReviewCard from "./Component/PersionReview/PersionReviewCard"
+import AccordionSection from "./Component/Accordion/Accordion"
+
 
 
 function App() {
@@ -23,7 +25,7 @@ function App() {
     <CreateNewCard/>
     <FindCard/>
     <PersionReviewCard/>
-    
+    <AccordionSection/>
       
       
       
