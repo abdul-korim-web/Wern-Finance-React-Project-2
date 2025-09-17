@@ -15,6 +15,7 @@ import { BrowserRouter, Routes, Route,  } from 'react-router-dom';
 import Homepagelayout from './Component/Homepagelayout/Homepagelayout';
 import ContactForm from './Component/ContactForm/ContactForm';
 import CreateNewDebitCard from './Component/CreateNewDebitCard/CreateNewDebitCard';
+import ErrorPage from './Component/ErrorPage/ErrorPage';
 
 
 
@@ -28,6 +29,8 @@ function App() {
       <Route path='/' element={<Homepagelayout/>}/>
       <Route path='contact' element={<ContactForm/>}/>
       <Route path='createcard' element={<CreateNewDebitCard/>}/>
+      <Route path='*' element={<ErrorPage/>}/>
+      
       
     </Routes>
     
